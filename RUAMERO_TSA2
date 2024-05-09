@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <title>ruamero_tsa2</title>
+</head>
+<body>
+  <form action="#" name="pokemon" method="post" align="center">
+
+<label for="dex">National Dex:</label>
+<input type="number" name="dex" id="dex" min="1"> <br> <br>
+
+<input type="radio" name="gen" id="gen1" value="gen1">
+<label for="gen1">Generation 1</label>
+
+<input type="radio" name="gen" id="gen2" value="gen2">
+<label for="gen2">Generation 2</label>
+
+<input type="radio" name="gen" id="gen3" value="gen3">
+<label for="gen3">Generation 3</label>
+
+<input type="radio" name="gen" id="gen4" value="gen4">
+<label for="gen4">Generation 4</label>
+
+<input type="radio" name="gen" id="gen5" value="gen4">
+<label for="gen5">Generation 5</label>
+
+<input type="radio" name="gen" id="gen6" value="gen4">
+<label for="gen6">Generation 6</label>
+
+    <input type="radio" name="gen" id="gen7" value="gen4">
+<label for="gen7">Generation 7</label>
+
+<input type="radio" name="gen" id="gen8" value="gen4">
+<label for="gen8">Generation 8</label>
+
+<input type="radio" name="gen" id="gen8" value="gen4">
+<label for="gen8">Generation 9</label> <br> <br>
+
+        <tr>
+            <td>Pokemon Name:</td>
+            <td><input type="text" name="pokemonName"></td>
+        </tr> <br> <br>
+     
+            <td>Image:</td>
+            <td><input type="file" name="pokemonImage"></td>
+        </tr> <br> <br>
+        <tr>
+            <td>Type 1:</td>
+            <td>
+			<select name= "type1" id="type1">
+			<option value = " ">   </option>
+			<option value = "Normal"> Normal </option>
+			<option value = "Fire"> Fire </option>
+			<option value = "Water"> Water </option>
+			<option value = "Electric"> Electric </option>
+			<option value = "Grass"> Grass </option>
+			<option value = "Ice"> Ice </option>
+			<option value = "Fighting"> Fighting </option>
+			<option value = "Poison"> Poison </option>
+			<option value = "Ground"> Ground </option>
+			<option value = "Flying"> Flying </option>
+			<option value = "Psychic"> Psychic </option>
+			<option value = "Bug"> Bug </option>
+			<option value = "Rock"> Rock </option>
+			<option value = "Ghost"> Ghost </option>
+			<option value = "Dragon"> Dragon </option>
+			<option value = "Dark"> Dark </option>
+			<option value = "Steel"> Steel </option>
+			<option value = "Fairy"> Fairy </option>
+		</select>
+        <tr>
+            <td>Type 2:</td>
+            <td>
+			<select name= "type2" id="type2">
+			<option value = " ">   </option>
+			<option value = "Normal"> Normal </option>
+			<option value = "Fire"> Fire </option>
+			<option value = "Water"> Water </option>
+			<option value = "Electric"> Electric </option>
+			<option value = "Grass"> Grass </option>
+			<option value = "Ice"> Ice </option>
+			<option value = "Fighting"> Fighting </option>
+			<option value = "Poison"> Poison </option>
+			<option value = "Ground"> Ground </option>
+			<option value = "Flying"> Flying </option>
+			<option value = "Psychic"> Psychic </option>
+			<option value = "Bug"> Bug </option>
+			<option value = "Rock"> Rock </option>
+			<option value = "Ghost"> Ghost </option>
+			<option value = "Dragon"> Dragon </option>
+			<option value = "Dark"> Dark </option>
+			<option value = "Steel"> Steel </option>
+			<option value = "Fairy"> Fairy </option>
+		</select> <br> <br>
+        </tr> <br> <br>
+        <tr>
+            <td>Evolves From:</td>
+            <td><input type="text" name="evolvesFrom"></td>
+        </tr>
+        <tr>
+            <td>Evolves To:</td>
+            <td><input type="text" name="evolvesTo"></td>
+        </tr> <br> <br>
+        <tr>
+            <td>Nickname:</td>
+            <td><input type="text" name="nickname"></td>
+        </tr> <br> <br>
+        <tr>
+            <td>Birthday:</td>
+            <td><input type="date" name="birthday"></td>  
+        </tr> <br> <br>
+
+    <label for="">National Dex:</label>
+<input type="text" name="dex" id="dex"> <br> <br>
+
+    <!-- Submit button -->
+    <input type="submit" value="Submit"> <br> <br>
+</form>
+</center>
+
+ <table border="1" align ="center"> <tr>
+ <th>National Dex</th>
+ <th>Generation</th>
+ <th>Pokemon Name</th>
+ <th>Image</th>
+ <th>Type 1</th>
+ <th>Type 2</th>
+ <th>Evolves From</th>
+ <th>Evolves To</th>
+ <th>Nickname</th>
+ <th>Birthday</th>
+ 
+ </tr> <tr align ="center">
+ <th>151</th>
+ <td>Generation I</td>
+ <td>Mew</td>
+ <td><img src="https://archives.bulbagarden.net/media/upload/9/9a/0151Mew.png" height="100"></td> 
+ <td colspan="2" style="background-color: #F95587; color: white;">Psychic</td>
+ <td>Mew</td>
+ <td>-</td>
+ <td>Suk</td>
+ <td>11-08-2004</td>
+
+ </tr> <tr align ="center">
+ <th>146</th>
+ <td>Generation I</td>
+ <td>Moltres</td>
+ <td><img src="https://archives.bulbagarden.net/media/upload/e/e4/0146Moltres-Galar.png" height="100"></td>
+ <td style="background-color: #705746; color: white;">Dark</td>
+ <td style="background-color: #A98FF3; color: white;">Flying</td>
+ <td>Moltres</td>
+ <th>-</th>
+ <td>Paji</td>
+ <td>06-02-2004</td>
+ 
+ </tr> <tr align ="center">
+ <th>172</th>
+ <td>Generation II</td>
+ <td>Pichu</td>
+ <td><img src="https://archives.bulbagarden.net/media/upload/f/f3/0172Pichu.png" height="100"></td>
+ <td colspan="2" style="background-color: #F7D02C; color: white;">Electric</td>
+ <td>-</td>
+ <td>Raichu</td>
+ <td>Yosh</td>
+ <td>01-02-2004</td>
+ 
+ </tr> <tr align ="center">
+ <th>169</th>
+ <td>Generation II</td>
+ <td>Crobat</td>
+ <td><img src="https://archives.bulbagarden.net/media/upload/3/35/0169Crobat.png" height="100"></td>
+ <td style="background-color: #A33EA1; color: white;">Poison</td>
+ <td style="background-color: #A98FF3; color: white;">Flying</td>
+ <td>Zubat</td>
+ <td>-</td>
+ <td>Kyu</td>
+ <td>06-28-2005</td>
+ 
+ </tr> <tr align ="center">
+ <th>700</th>
+ <td>Generation VI</td>
+ <td>Sylveon</td>
+ <td><img src="https://archives.bulbagarden.net/media/upload/d/d0/0700Sylveon.png" height="100"></td>
+ <td colspan="2" style="background-color: #D685AD; color: white;">Fairy</td>
+ <td>Eevee</td>
+ <td>-</td>
+ <td>Jae</td>
+ <td>11-05-2004</td>
+ 
+ </tr> <tr align ="center">
+ <th>187</th>
+ <td>Generation II</td>
+ <td>Hoppip</td>
+ <td><img src="https://archives.bulbagarden.net/media/upload/c/c9/0187Hoppip.png" height="100"></td>
+ <td style="background-color: #7AC74C; color: white;">Grass</td>
+ <td style="background-color: #A98FF3; color: white;">Flying</td>
+ <th>-</th>
+ <td>Jumpluff</td>
+ <td>Sahi</td>
+ <td>03-25-2005</td>
+ 
+ </tr> <tr align ="center">
+ <th>684</th>
+ <td>Generation VI</td>
+ <td>Swirlix</td>
+ <td><img src="https://archives.bulbagarden.net/media/upload/a/a7/0684Swirlix.png" height="100"></td>
+ <td colspan="2" style="background-color: #D685AD; color: white;">Fairy</td>
+ <td>-</td>
+ <td>Slurpuff</td>
+ <td>Dobs</td>
+ <td>09-30-2004</td
+ 
+ </tr> <tr align ="center">
+ <th>727</th>
+ <td>Generation VII</td>
+ <td>Incineroar</td>
+ <td><img src="https://archives.bulbagarden.net/media/upload/a/af/0727Incineroar.png" height="100"></td>
+ <td style="background-color: #EE8130; color: white;">Fire</td>
+ <td style="background-color: #705746; color: white;">Dark</td>
+ <td>Litten</td>
+ <td>-</td>
+ <td>Ruto</td>
+ <td>11-24-2005</td>
+ 
+  </tr> <tr align ="center">
+ <th>775</th>
+ <td>Generation VII</td>
+ <td>Komala</td>
+ <td><img src="https://archives.bulbagarden.net/media/upload/f/f1/0775Komala.png" height="100"></td>
+ <td colspan="2" style="background-color: #A8A77A; color: white;">Normal</td>
+ <td>-</td>
+ <td>-</td>
+ <td>Woo</td>
+ <td>01-04-2005</td>
+
+ </tr> <tr align ="center">
+ <th>774</th>
+ <td>Generation VII</td>
+ <td>Minior</td>
+ <td><img src="https://archives.bulbagarden.net/media/upload/4/4b/0774Minior.png" height="100"></td>
+ <td style="background-color: #B6A136; color: white;">Rock</td>
+ <td style="background-color: #705746; color: white;">Flying</td>
+ <td>-</td>
+ <td>-</td>
+ <td>Hwan</td>
+ <td>06-30-2004</td>
+
+ </tr>
+ </table>
+
+</body>
+</html>
