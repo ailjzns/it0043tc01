@@ -16,11 +16,10 @@ body{
 .heading{
     font-size: 4rem;
     margin-top: 15px;
-    margin-bottom: 0;
 }
 
 img{
-    width: 150px;
+    width: 180px;
     height: 150px;
     margin-bottom: 30px;
 }
@@ -29,8 +28,8 @@ img{
     font-family: "Protest Revolution", sans-serif;
     font-weight: bold;
     font-size: 3rem;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 10;
+    margin-bottom: 10;
 }
 
 p{
