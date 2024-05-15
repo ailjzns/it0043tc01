@@ -15,12 +15,9 @@ body{
 
 .heading{
     font-size: 4rem;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
-img{
-    height: 300px;
-}
 .subheading{
     font-family: "Protest Revolution", sans-serif;
     font-weight: bold;
