@@ -18,6 +18,10 @@ body{
     margin-top: 0;
 }
 
+img{
+    height: 100px;
+}
+
 .subheading{
     font-family: "Protest Revolution", sans-serif;
     font-weight: bold;
