@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+body{
+    color: whitesmoke;
+    background-image: url(red.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-family: roboto;
+}
+.color{
+    color: rgb(250, 0, 0);
+}
+
+.heading{
+    font-size: 4rem;
+}
+
+img{
+    height: 300px;
+}
+.subheading{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+p{
+    font-size: 2rem;
+}
+
