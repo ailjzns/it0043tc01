@@ -19,7 +19,7 @@ body{
 }
 
 img{
-    width: 180px;
+    width: 175px;
     height: 150px;
     margin-bottom: 30px;
 }
@@ -28,8 +28,8 @@ img{
     font-family: "Protest Revolution", sans-serif;
     font-weight: bold;
     font-size: 3rem;
-    margin-top: 10;
-    margin-bottom: 10;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 p{
