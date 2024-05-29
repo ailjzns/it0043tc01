@@ -26,6 +26,34 @@ body{
     justify-content: space-evenly;
 }
 
+#pokeball{
+    display: none;
+    width: 80px;
+    height: 80px;
+}
+
+@media(max-width: 1090px){
+    .icon{
+        display: flex;
+        padding: 20px;
+        width: 500px;
+        vertical-align: center;
+        flex-grow: 1;
+    }
+
+    .icon:hover{
+        background-image: url(bg1.jpg);
+    }
+
+    p, #pokeball{
+        display: inline-block;
+    }
+
+    img{
+        width: 100px;
+    }
+}
+
 p{
     display: none;
     text-align: center;
@@ -37,10 +65,6 @@ p{
 
 img{
     width: 100%
-}
-
-.icon:hover{
-    background-image: url(bg1.jpg);
 }
 
 .icon{
