@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+}
+
+.container{
+    background-image: url(bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: 90vw;
+    /* height: 70vh;  */
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    /* gap: 20px; */
+    align-items: start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+p{
+    display: none;
+    text-align: center;
+    font-family: Arial;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 4px 4px 4px black;
+}
+
+img{
+    width: 100%
+}
+
+.icon:hover{
+    background-image: url(bg1.jpg);
+}
+
+.icon{
+    width: 250px;
+    /* font-size: 3rem; */
+    padding: 20px;
+    text-align: center;
+    /* border: 2px black; */
+    color: white;
+    /* display: inline-block; */
+    margin: 10px;
+    flex-shrink: 1;
+    flex-grow: 1;
+}
+
+.bellesprout{
+    background-color: #fff800;
+}
+
+.eevee{
+    background-color: #d3964c;
+}
+
+.jigglypuff{
+    background-color: #efa3cc;
+}
+
+.mankey{
+    background-color: #f4d3a2;
+}
+
+.meowth{
+    background-color: #eae4c5;
+}
+
+.mew{
+    background-color: #f4c4b3;
+}
+
+.pikachu{
+    background-color: #ffd400;
+}
+
+.rattata{
+    background-color: #a962e8;
+}
+
+.squirtle{
+    background-color: #7fe5d8;
+}
+
+.venonat{
+    background-color: #7c34c1;
+}
+
+.weedle{
+    background-color: #ddc38a;
+}
+
+.zubat{
+    background-color: #4f74e8;
+}
