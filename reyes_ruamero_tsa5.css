@@ -5,26 +5,33 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.wc_container{
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.wc-container{
     width: 85vw;
-    border: 5px solid black;
+    border: 5px;
     margin: 20px auto;
     padding: 20px;
-    background-color: lightpink;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 20px;
+    grid-gap: 10px;
 }
 
 .item{
-    border: 5px solid darkslategray;
+    border: 5px solid #ae9fe2;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 25px;
     color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
 }
 
 .details{
@@ -34,20 +41,21 @@
     align-items: center;
 }
 
-#musa .details,
-#stella .details{
+#musa.details{
     flex-direction: row;
-    gap: 10px;
-
-}
-
-img{
-    width: 128px;
 }
 
 .name{
     font-size: 2.5rem;
     font-weight: 700;
+}
+
+.race{
+    font-size: 1.2rem;
+}
+
+img{
+    width: 128px;
 }
 
 .desc{
@@ -63,11 +71,15 @@ img{
 
 #bloom{
     background-color: #83f6f3;
-    color: black
+    color:black;
+    grid-column: 3/4;
+    grid-row: 1/2;
 }
 
 #flora{
     background-color: #ff7bc4;
+    grid-column: 4/5;
+    grid-row: 1/3;
 }
 
 #stella{
@@ -77,25 +89,26 @@ img{
 }
 
 #tecna{
-    background-color:  #c5b5fe;
-    grid-column: 4/5;
-    grid-row: 1/3;
+    background-color: #c5b5fe;
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
 
-@media (max-width:1000px){
-    .wc_container{
-        grid-template-columns: repeat(2, 1fr);
+#musa .details,
+#stella .details{
+    flex-direction: row;
+}
+
+@media(max-width:1200px){
+    .wc-container{
+        grid-template-columns: repeat(2,1fr);
     }
+    
     #musa{
         grid-column: 1/2;
         grid-row: 1/2;
     }
     
-    #musa .details,
-    #stella .details{
-
-    }
-
     #bloom{
         grid-column: 2/3;
         grid-row: 1/2;
@@ -103,29 +116,35 @@ img{
     
     #flora{
         grid-column: 1/3;
-        grid-row: 1/2;
+        grid-row: 3/4;
     }
     
     #stella{
-        grid-column: 2/4;
+        grid-column: 1/2;
         grid-row: 2/3;
     }
     
     #tecna{
-        grid-column: 1/3;
-        grid-row: 3/4;
+        grid-column: 2/3;
+        grid-row: 2/3;
     }
 
-    #tecna .details{
+    #stella .details{
         flex-direction: row;
     }
-}
 
-@media (max-width:720px){
-    .wc_container{
-        grid-template-columns: 1fr;
+    #musa .details,
+    #stella .details{
+        flex-direction: column;
     }
 
+}
+
+@media(max-width: 720px){
+    .wc-container{
+        grid-template-columns: 1fr;
+    }
+   
     #musa{
         grid-column: 1/2;
         grid-row: 1/2;
@@ -138,8 +157,8 @@ img{
     
     #flora{
         grid-column: 1/2;
-        grid-row: 3/4;
-    }    
+        grid-row: 5/6;
+    }
     
     #stella{
         grid-column: 1/2;
@@ -148,8 +167,16 @@ img{
     
     #tecna{
         grid-column: 1/2;
-        grid-row: 5/6;
+        grid-row: 3/4;
     }
 
-    
+    #musa .details,
+    #bloom .details,
+    #flora .details,
+    #stella .details,
+    #tecna .details{
+        flex-direction: row;
+    }
 }
+
+
