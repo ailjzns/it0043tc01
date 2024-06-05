@@ -23,6 +23,13 @@ body{
     grid-gap: 10px;
 }
 
+.details{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
 .item{
     border: 5px solid #ae9fe2;
     padding: 10px;
@@ -34,15 +41,17 @@ body{
     gap: 15px;
 }
 
-.details{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+.desc{
+    text-align: justify;
+    line-height: 1.5;
 }
 
 #musa.details{
     flex-direction: row;
+}
+
+img{
+    width: 128px;
 }
 
 .name{
@@ -52,15 +61,6 @@ body{
 
 .race{
     font-size: 1.2rem;
-}
-
-img{
-    width: 128px;
-}
-
-.desc{
-    text-align: justify;
-    line-height: 1.5;
 }
 
 #musa{
