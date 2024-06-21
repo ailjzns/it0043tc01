@@ -1,0 +1,173 @@
+.intro {
+    margin-bottom: 100px; /* Adjust the margin as per your design */
+}
+
+.about {
+    margin-top: 100px; /* Adjust the margin as per your design */
+}
+
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+main {
+    padding: 20px;
+}
+
+.intro, .about, .characters, .scenes, .credits {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.intro .intro-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.intro .intro-text h1 {
+    font-size: 2.5rem; /* Adjust font size as needed */
+    font-weight: bold;
+    font-family: 'Pixar', Arial, sans-serif; /* Use Pixar font */
+    margin-bottom: 10px;
+}
+
+.cover-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.cover-image:hover {
+    transform: translate(5px, 5px); /* Move the image slightly on hover */
+}
+
+.character-row {
+    display: flex;
+    flex-wrap: wrap; /* Allow characters to wrap to the next line on smaller screens */
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.character {
+    flex: 0 0 calc(50% - 80px); /* Two characters per row with margin in between */
+    margin: 10px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+    position: relative;
+    overflow: hidden;
+}
+
+.character-content {
+    padding: 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.character-content img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+.middle-character {
+    flex: 0 0 calc(70% - 100px); /* Adjust for two characters in the middle */
+    margin: 10px;
+    margin-left: 150px;
+}
+
+.character-content h3 {
+    text-align: center; /* Center align character titles */
+}
+
+.joy-bg {
+    background-color: #f1dc8a; /* Background color for Joy */
+}
+
+.sadness-bg {
+    background-color: #6da4d1; /* Background color for Sadness */
+}
+
+.anger-bg {
+    background-color: #db7b7d; /* Background color for Anger */
+}
+
+.disgust-bg {
+    background-color: #9dc49f; /* Background color for Disgust */
+}
+
+.fear-bg {
+    background-color: #be98c3; /* Background color for Fear */
+
+}
+
+.character:hover .character-content {
+    background-color: #ddd; /* Change background color on hover */
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.about-text {
+    flex: 0 0 40%; /* Take up 40% of the container width */
+    padding-right: 20px;
+    padding-top: 100px;
+}
+
+.about-images {
+    flex: 0 0 50%; /* Take up 50% of the container width */
+    display: flex;
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-images img {
+    max-width: 100%; /* Ensure images are responsive */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease; /* Smooth transition for transform */
+}
