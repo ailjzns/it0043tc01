@@ -101,7 +101,7 @@ main {
 
 .home-content {
     display: flex;
-    justify-content: space-between;
+    justify-content: center; /* Center horizontally */
     align-items: center;
     width: 80%;
     max-width: 1200px;
@@ -112,19 +112,22 @@ main {
     max-width: 40%;
     height: auto;
     border-radius: 10px;
-    order: 2; /* Moves the image to the second position */
 }
 
 .welcome-text {
     max-width: 40%;
     text-align: left;
     padding: 20px;
-    order: 1; /* Moves the text to the first position */
 }
 
 .welcome-text h1 {
-    font-size: 3rem;
+    font-size: 4rem; /* Increased font size */
     margin: 0;
+    line-height: 1; /* Ensures the text is on one line */
+}
+
+.welcome-text .projects-text {
+    font-size: 3rem; /* Adjusted font size for the projects text */
 }
 
 .highlight {
@@ -238,6 +241,11 @@ main {
 .blog-content {
     text-align: justify;
     padding: 10px;
+    color: #000000; /* Set the blog content text color to black */
+}
+
+.blog-content h3 {
+    color: #80170f; /* Set the titles to red */
 }
 
 @keyframes floatImage {
@@ -261,6 +269,7 @@ main {
     }
 }
 
+
 /* Portfolio section styles */
 #portfolio {
     background-color: #ffffff;
@@ -268,6 +277,10 @@ main {
     color: #80170f;
     text-align: center;
     font-size: 1rem; /* Adjust the font size */
+}
+
+#portfolio p {
+    color: #000000; /* Set the "Explore my projects!" text color to black */
 }
 
 .portfolio-container {
@@ -396,9 +409,8 @@ footer {
     color: #80170f;
 }
 
-/* Copyright text styling */
 footer .copyright {
     color: white;
-    text-decoration: none; /* Remove underline */
-    pointer-events: none; /* Disable pointer events */
-} 
+    text-decoration: none; 
+    pointer-events: none;
+}    
