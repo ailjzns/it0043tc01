@@ -91,7 +91,7 @@ main {
 
 /* Home section styles */
 #home {
-    width: 100%;
+    width: 150%;
     background: linear-gradient(to bottom, #80170f, #ffffff);
     color: white;
     text-align: center;
@@ -116,7 +116,7 @@ main {
 
 .welcome-text {
     max-width: 40%;
-    text-align: left;
+    text-align: center;
     padding: 20px;
 }
 
