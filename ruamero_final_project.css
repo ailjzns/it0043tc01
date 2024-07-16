@@ -26,7 +26,7 @@ nav {
 }
 
 .menu-toggle {
-    display: none; /* Hide initially for larger screens */
+    display: none; 
     color: #fff;
     font-size: 1.5rem;
     margin-right: 10px;
@@ -50,7 +50,6 @@ nav {
     color: white;
 }
 
-/* Media query for smaller screens */
 @media (max-width: 768px) {
     .menu {
         display: none;
@@ -77,19 +76,19 @@ nav {
 
     .menu li {
         margin: 10px;
-        margin-left: 0; /* Remove left margin for menu items */
-        margin-right: 0px; /* Remove right margin for menu items */
+        margin-left: 0; 
+        margin-right: 0px; 
     }
 }
 
-/* Main section styles */
+
 main {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-/* Home section styles */
+
 #home {
     width: 100%;
     background: linear-gradient(to bottom, #80170f, #ffffff);
@@ -101,7 +100,7 @@ main {
 
 .home-content {
     display: flex;
-    justify-content: center; /* Center horizontally */
+    justify-content: center;
     align-items: center;
     width: 80%;
     max-width: 1200px;
@@ -121,24 +120,24 @@ main {
 }
 
 .welcome-text h1 {
-    font-size: 4rem; /* Increased font size */
+    font-size: 4rem; 
     margin: 0;
-    line-height: 1; /* Ensures the text is on one line */
+    line-height: 1; 
 }
 
 .welcome-text .projects-text {
-    font-size: 3rem; /* Adjusted font size for the projects text */
+    font-size: 3rem; 
 }
 
 .highlight {
-    color: #80170f; /* Dark red for the highlighted name */
+    color: #80170f; 
 }
 
-/* About section styles */
+
 #about .container {
     padding: 50px 20px;
     background-color: #ffffff;
-    color: #000000; /* Default text color */
+    color: #000000; 
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -146,29 +145,29 @@ main {
 }
 
 #about .about-text h3 {
-    color: #80170f; /* Maroon color for the "About Me" heading */
+    color: #80170f; 
 }
 
 #about .about-text h4,
 #about .about-text p {
-    color: #000000; /* Black for the "Hello!" and paragraph text */
+    color: #000000; 
 }
 
 #about .about-text h4 {
-    margin-top: 0; /* Remove default margin from h4 */
+    margin-top: 0; 
 }
 
 .me {
     display: flex;
     justify-content: space-around;
-    align-items: center; /* Center align items vertically */
-    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+    align-items: center; 
+    flex-wrap: wrap;
 }
 
 .polaroid {
     width: 40%;
     text-align: center;
-    position: relative; /* Ensure relative positioning for absolutely positioned elements */
+    position: relative;
 }
 
 .polaroid img {
@@ -178,35 +177,35 @@ main {
 }
 
 .polaroid img:hover {
-    transform: scale(1.05); /* Scale up the image on hover */
-    box-shadow: 0 12px 20px #80170f; /* Maroon shadow on hover */
+    transform: scale(1.05); 
+    box-shadow: 0 12px 20px #80170f; 
 }
 
 
 .about-text {
     width: 50%;
     text-align: justify;
-    font-size: 1.1rem; /* Adjusted the font size */
-    margin-top: 20px; /* Added margin top for separation */
+    font-size: 1.1rem;
+    margin-top: 20px; 
 }
 
-/* Media query for smaller screens */
+
 @media screen and (max-width: 768px) {
     .me {
-        flex-direction: column; /* Stack items vertically on smaller screens */
-        align-items: center; /* Center align items */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .polaroid {
-        width: 80%; /* Adjusted width for smaller screens */
+        width: 80%; 
     }
 
     .about-text {
-        width: 80%; /* Adjusted width for smaller screens */
+        width: 80%; 
     }
 }
 
-/* Blog section styles */
+
 #blog {
     background-color: #fff;
     padding: 50px 20px;
@@ -221,31 +220,30 @@ main {
 }
 
 .blog-post {
-    max-width: 30%; /* Adjust as needed for larger screens */
+    max-width: 30%; 
     margin-bottom: 30px;
-    position: relative; /* Ensure relative positioning for absolutely positioned elements */
+    position: relative; 
 }
 
 .blog-post img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out; /* Add transition for smooth animation */
-}
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out; 
 
 .blog-post:hover img {
-    transform: scale(1.05); /* Scale up the image on hover */
-    box-shadow: 0 12px 20px rgba(128, 23, 15, 0.8); /* Maroon shadow on hover */
+    transform: scale(1.05); 
+    box-shadow: 0 12px 20px rgba(128, 23, 15, 0.8); 
 }
 
 .blog-content {
     text-align: justify;
     padding: 10px;
-    color: #000000; /* Set the blog content text color to black */
+    color: #000000; 
 }
 
 .blog-content h3 {
-    color: #80170f; /* Set the titles to red */
+    color: #80170f;
 }
 
 @keyframes floatImage {
@@ -265,22 +263,22 @@ main {
 /* Media query for smaller screens */
 @media screen and (max-width: 768px) {
     .blog-post {
-        max-width: 100%; /* Display one post per row on smaller screens */
+        max-width: 100%; 
     }
 }
 
 
-/* Portfolio section styles */
+
 #portfolio {
     background-color: #ffffff;
     padding: 50px 20px;
     color: #80170f;
     text-align: center;
-    font-size: 1rem; /* Adjust the font size */
+    font-size: 1rem; 
 }
 
 #portfolio p {
-    color: #000000; /* Set the "Explore my projects!" text color to black */
+    color: #000000;
 }
 
 .portfolio-container {
@@ -298,14 +296,14 @@ main {
 }
 
 .item {
-    flex: 1 0 calc(30% - 20px); /* Flex basis set to 30% minus margins */
+    flex: 1 0 calc(30% - 20px); 
     margin: 10px;
     max-width: 30%;
-    min-width: 200px; /* Ensure a minimum width for smaller screens */
-    text-align: center; /* Center-align text */
+    min-width: 200px; 
+    text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: space-between; /* Space items evenly */
+    justify-content: space-between; 
 }
 
 .item img {
@@ -316,13 +314,13 @@ main {
 
 @media (max-width: 768px) {
     .portfolio-row {
-        flex-direction: column; /* Stack items vertically on smaller screens */
+        flex-direction: column;
         align-items: center;
     }
   
     .item {
-        max-width: 100%; /* Full width for each item on smaller screens */
-        margin-bottom: 20px; /* Spacing between items */
+        max-width: 100%; 
+        margin-bottom: 20px; 
     }
 }
 
@@ -336,7 +334,7 @@ main {
     border-radius: 5px;
 }
 
-/* Contacts section styles */
+
 #contacts {
     background-color: #fff;
     padding: 50px 20px;
@@ -380,7 +378,7 @@ button {
     cursor: pointer;
 }
 
-/* Footer styles */
+
 footer {
     background-color: #80170f;
     color: white;
